@@ -1,5 +1,5 @@
 import "./Forum.css";
-import Post from "../post/Post";
+import Post from "../../components/post/Post";
 
 function Forum() {
   return (
@@ -12,7 +12,8 @@ function Forum() {
         />
         <button className="btn">Post</button>
       </div>
-      <Post/>
+      <Post />
+    </div>
   );
 }
 
